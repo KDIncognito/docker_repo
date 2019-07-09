@@ -6,5 +6,5 @@ before_install:
   - docker build -t sreekrishnadutta/docker_repo -f Dockerfile.dev .
 
 script:
-  - docker run sreekrishnadutta/docker_repo npm run test -- -- coverage
+  - docker run sreekrishnadutta/docker_repo npm run test -- --coverage
 
